@@ -18,7 +18,9 @@ public class Frame_1 extends javax.swing.JFrame {
         this.bot = new Bot(user);
         textArea1.setCursor(Cursor.getDefaultCursor());
         textArea1.append("Bot: Hello! Type a message below and press Enter.\n\n");
-         getContentPane().setBackground(Color.DARK_GRAY);
+         getContentPane().setBackground(Color.WHITE);
+         textArea1.setBackground(Color.WHITE);
+         textField1.setBackground(Color.WHITE);
     }
 
     /**
